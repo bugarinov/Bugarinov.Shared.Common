@@ -1,0 +1,18 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.32901.82
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{D954291E-2A0B-460D-934E-DC6B0785DB48}") = "Bugarinov.Shared.Common", "Bugarinov.Shared.Common.shproj", "{20BEAA46-E290-4DA7-9A00-2BBFD044AF83}"
+EndProject
+Global
+	GlobalSection(SharedMSBuildProjectFiles) = preSolution
+		Bugarinov.Shared.Common.projitems*{20beaa46-e290-4da7-9a00-2bbfd044af83}*SharedItemsImports = 13
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {58671F4A-FB0D-4574-94FD-C58610E91FE7}
+	EndGlobalSection
+EndGlobal
