@@ -13,7 +13,7 @@ namespace Bugarinov.Shared.Common.ViewModels
             set
             {
                 IsNextEnabled_ = value;
-                RaisePropertyChangedEvent("IsNextEnabled");
+                RaisePropertyChangedEvent(nameof(IsNextEnabled));
             }
         }
 
@@ -24,7 +24,7 @@ namespace Bugarinov.Shared.Common.ViewModels
             set
             {
                 IsPreviousEnabled_ = value;
-                RaisePropertyChangedEvent("IsPreviousEnabled");
+                RaisePropertyChangedEvent(nameof(IsPreviousEnabled));
             }
         }
 

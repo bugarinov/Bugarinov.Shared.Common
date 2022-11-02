@@ -11,7 +11,7 @@ namespace Bugarinov.Shared.Common.ViewModels
             set
             {
                 IsLoading_ = value;
-                RaisePropertyChangedEvent("IsLoading");
+                RaisePropertyChangedEvent(nameof(IsLoading));
             }
         }
 
@@ -22,7 +22,7 @@ namespace Bugarinov.Shared.Common.ViewModels
             set
             {
                 IsMainEnabled_ = value;
-                RaisePropertyChangedEvent("IsMainEnabled");
+                RaisePropertyChangedEvent(nameof(IsMainEnabled));
             }
         }
 
