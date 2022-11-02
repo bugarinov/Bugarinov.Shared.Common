@@ -9,14 +9,12 @@ namespace Bugarinov.Shared.Common.Converters
     {
         public object Convert(object value, Type targetType, object parameter, CultureInfo culture)
         {
-            return value is string
-                ? (value ?? "").ToString().IsEmpty()
-                : value == null;
+            return (value ?? "").ToString().IsEmpty();
         }
 
         public object ConvertBack(object value, Type targetType, object parameter, CultureInfo culture)
         {
-            throw new InvalidOperationException("IsNullConverter can only be used OneWay.");
+            throw new InvalidOperationException();
         }
     }
 }
