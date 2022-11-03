@@ -14,9 +14,9 @@
     <Compile Include="$(MSBuildThisFileDirectory)Converters\NullConverter.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)Core\DelegateCommand.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)Core\ObservableObject.cs" />
-    <Compile Include="$(MSBuildThisFileDirectory)ViewModels\GlobalLoader.cs" />
-    <Compile Include="$(MSBuildThisFileDirectory)ViewModels\LoadingManager.cs" />
-    <Compile Include="$(MSBuildThisFileDirectory)ViewModels\Paginator.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Classes\GlobalLoader.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Classes\LoadingManager.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Classes\Paginator.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)Core\StringExtensions.cs" />
   </ItemGroup>
 </Project>

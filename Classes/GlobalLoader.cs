@@ -1,4 +1,4 @@
-﻿namespace Bugarinov.Shared.Common.ViewModels
+﻿namespace Bugarinov.Shared.Common.Classes
 {
     public static class GlobalLoader
     {

@@ -1,6 +1,6 @@
 ﻿using Bugarinov.Shared.Common.Core;
 
-namespace Bugarinov.Shared.Common.ViewModels
+namespace Bugarinov.Shared.Common.Classes
 {
     public class LoadingManager : ObservableObject
     {
