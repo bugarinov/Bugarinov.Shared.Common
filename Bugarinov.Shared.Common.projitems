@@ -18,5 +18,9 @@
     <Compile Include="$(MSBuildThisFileDirectory)Classes\LoadingManager.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)Classes\Paginator.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)Core\StringExtensions.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Factory\AbstractPresenterFactory.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Factory\IPresenterFactory.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Services\INavigationService.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)ViewModels\BasePresenter.cs" />
   </ItemGroup>
 </Project>
