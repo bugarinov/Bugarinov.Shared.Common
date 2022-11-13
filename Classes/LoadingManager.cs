@@ -15,6 +15,17 @@ namespace Bugarinov.Shared.Common.Classes
             }
         }
 
+        private bool IsErrorEnabled_ = false;
+        public bool IsErrorEnabled
+        {
+            get => IsErrorEnabled_;
+            set
+            {
+                IsErrorEnabled_ = value;
+                RaisePropertyChangedEvent(nameof(IsErrorEnabled));
+            }
+        }
+
         private bool IsMainEnabled_ = true;
         public bool IsMainEnabled
         {
@@ -30,12 +41,21 @@ namespace Bugarinov.Shared.Common.Classes
         {
             IsLoading = true;
             IsMainEnabled = false;
+            IsErrorEnabled = false;
+        }
+
+        public void ShowError()
+        {
+            IsLoading = false;
+            IsMainEnabled = false;
+            IsErrorEnabled = true;
         }
 
         public void HideLoad()
         {
             IsLoading = false;
             IsMainEnabled = true;
+            IsErrorEnabled = false;
         }
     }
 }
