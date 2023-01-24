@@ -15,6 +15,8 @@ namespace Bugarinov.Shared.Common.ViewModels
             PresenterFactory = presenterFactory;
         }
 
+        public virtual void Load() { }
+
         public virtual void Unload() { }
     }
 }
